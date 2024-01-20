@@ -1,0 +1,17 @@
+{
+    "name": "automation-tests",
+    "version": "1.0.0",
+    "type": "module",
+    "volta": {
+      "node": "14.17.3"
+    },
+    "scripts": {
+      "test": "mocha 'tests/**/*.js'"
+    },
+    "devDependencies": {
+      "chai": "^4.3.4",
+      "chai-http": "^4.3.0", 
+      "mocha": "^9.0.3"
+    }
+  }
+  
